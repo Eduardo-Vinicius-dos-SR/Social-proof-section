@@ -1,0 +1,82 @@
+@media (max-width: 975px) {
+	.proof-card {
+		padding: 40px;
+	}
+	.info-container {
+		flex-wrap: wrap;
+	}
+	.proof-card .feedback {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.proof-card .feedback .feed {
+		transform: none;
+	}
+}
+
+@media (max-width: 900px) {
+	.proof-card .info-container {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.info-container .rate {
+		margin-left: 70px;
+	}
+
+	.proof-card .feedback {
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 575px) {
+	.proof-card {
+		padding: 60px 30px;
+	}
+	.proof-card .info-container {
+		max-width: 450px;
+	}
+
+	.info-container .rate {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.info-container .rate .rate-card {
+		margin: 0 auto 15px;
+		width: 75%;
+		flex-direction: column;
+		transform: none;
+		gap: 17px;
+		font-size: 1.6rem;
+	}
+
+	.proof-card .feedback {
+		margin-top: 10px;
+		gap: 20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.proof-card .info-container,
+	.proof-card .feedback,
+	.info-container .rate .rate-card {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 435px) {
+	.info .title {
+		font-size: 3.3rem;
+		padding: 0 75px;
+	}
+
+	.info .description {
+		padding: 0 50px;
+	}
+
+	.proof-card .feedback {
+		padding: 0 30px;
+	}
+}
