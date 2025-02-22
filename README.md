@@ -42,8 +42,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [Eduardo Vinicius dos SR](https://www.frontendmentor.io/profile/Eduardo-Vinicius-dos-SR)
-
-<-- -->
+  
 
 # Front-end Style Guide
 
