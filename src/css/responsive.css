@@ -32,10 +32,15 @@
 
 @media (max-width: 575px) {
 	.proof-card {
-		padding: 60px 30px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 60px 0;
 	}
 	.proof-card .info-container {
-		max-width: 450px;
+		justify-content: center;
+		max-width: 100%;
 	}
 
 	.info-container .rate {
@@ -62,8 +67,8 @@
 }
 
 @media (max-width: 500px) {
-	.proof-card .info-container,
 	.proof-card .feedback,
+	.info-container .info,
 	.info-container .rate .rate-card {
 		max-width: 100%;
 	}
@@ -81,11 +86,5 @@
 
 	.proof-card .feedback {
 		padding: 0 30px;
-	}
-}
-
-@media (max-width: 400px) {
-	.proof-card {
-		padding-right: 7px;
 	}
 }
